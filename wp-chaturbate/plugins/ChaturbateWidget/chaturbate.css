@@ -1,0 +1,54 @@
+
+	.cb_thumbs {
+		list-style: none;
+		margin: 0 auto!important;
+		padding: 6px!important;
+		background: #e0e0e0;
+		width: 220px;
+		border-radius: 8px;
+	}	
+	
+	.cb_thumbs li {
+		background: #efefef;
+		padding: 10px;
+		margin: 10px;
+		border: 1px solid #e3e3e3;
+		width: 180px;
+		border-radius: 8px;
+		text-align: center;
+	}
+	
+		.cb_thumbnail {
+			position: relative;
+			width: 180px;
+			height: 148px;
+		}
+		
+		.cb_thumbnail img {
+			border-radius: 8px;
+		}
+		
+		.cb_thumbnail .cb_status {
+			position: absolute;
+			background:#000;
+			color: #FFF;
+			padding: 1px 10px;
+			bottom: 0;
+			right: 0;
+		}
+		
+			.cb_thumbnail .cb_status.private {
+				background: red;
+			}	
+			
+			.cb_thumbnail .cb_status.public {
+				background: green;
+			}	
+			
+			
+	.adultwp {
+		padding: 0!important;
+		background: none!important;
+		text-align: left!important;
+		font-size: 11px;
+	}
